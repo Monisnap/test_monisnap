@@ -20,17 +20,10 @@ For performances reasons I decided not to add the front to the docker-compose so
 
 Runs the app in the development mode.\
 
-Open [http://localhost:3000](http://localhost:3000) in browser to view the demo, backend should be running in 8080 port (please refer to the backend part for more informations), to run test please run the following command:
-
-  
-
-### `npm test`
-
-  
-
+Open [http://localhost:3000](http://localhost:3000) in browser to view the demo, backend should be running in 8080 port (please refer to the backend part for more informations).
 To generate a build run the following command
 
-  
+
 
 ### `npm build`
 
