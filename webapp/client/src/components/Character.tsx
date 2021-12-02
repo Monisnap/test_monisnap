@@ -12,7 +12,7 @@ interface Props {
   character: CharacterUI;
 }
 
-export default function Character(props: Props) {
+const Character: React.VFC<Props> = (props: Props) => {
   const { character } = props;
   return (
     <>
@@ -57,4 +57,6 @@ export default function Character(props: Props) {
       <Divider variant="inset" component="li" />
     </>
   );
-}
+};
+
+export default Character;

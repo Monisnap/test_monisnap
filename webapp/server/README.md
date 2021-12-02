@@ -14,7 +14,7 @@ First open terminal command navigate to webapp directory (where docker-compose.y
 
 ### `docker-compose build && docker-compose up -d`
 
-Everything is now working fine and the backend is running on [http://localhost:8080](http://localhost:8080), mongo-express is a light database ui manager for Mongo, you can access it in browser on  [http://localhost:8081](http://localhost:8081) to manager all your dbs.
+Everything is now working fine and the backend is running on [http://localhost:8080](http://localhost:8080), mongo-express is a light database ui manager for Mongo, you can access it in browser on  [http://localhost:8081](http://localhost:8081) to manage all your dbs.
 
 Before running the client you need to import all characters in database, to do this run the following command:
 

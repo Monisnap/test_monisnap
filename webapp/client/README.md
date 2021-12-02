@@ -6,7 +6,7 @@ The project was bootstrapped directly with [Create React App](https://github.com
 
   
 
-## Available Scripts
+## How to use
 
   
 
