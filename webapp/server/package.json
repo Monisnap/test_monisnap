@@ -1,0 +1,33 @@
+{
+  "name": "web-app-server",
+  "version": "1.0.0",
+  "description": "Technical test for a full stack position in an amazing company",
+  "main": "launch.js",
+  "scripts": {
+    "test": "jest",
+    "migration": "tsc && node ./dist/data_access/migrations/characters.migration.js",
+    "server": "tsc && node ./dist/launch.js",
+    "start": "NODE_PATH=./dist node dist/launch.js",
+    "build": "tsc -p .",
+    "dev": "nodemon launch.ts"
+  },
+  "author": "bait-sli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.14"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.0.3",
+    "@types/mongoose": "^5.11.97",
+    "jest": "^27.4.3",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
