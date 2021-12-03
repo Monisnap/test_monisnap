@@ -10,4 +10,8 @@ Regarding the webapp, i used a full stack approach and tried to cover all possib
  - MaterialUI and React Router. 
  - DigitalOcean to deploy the app.
 
-To check the live demo of the app deployed on a Digitalocean server:  [Live demo](http://localhost:3000)
+To check the live client demo of the app deployed on my Digitalocean server:  [Live demo](https://frontendmonisnap.kapger.com/)
+
+To test the backend api via curl or Postman her's the URI: [https://backendmonisnap.kapger.com/characters](https://backendmonisnap.kapger.com/characters)
+
+PS: kapger.com is one of my registred domain name.
