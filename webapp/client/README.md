@@ -25,7 +25,7 @@ To generate a build run the following command
 
 
 
-### `npm build`
+### `npm run build`
 
   
 
